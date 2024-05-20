@@ -1,4 +1,22 @@
-﻿using Personalregister;
+﻿/* Uppgift 1
+   Vilka klasser bör ingå i programmet?
+
+   Klassen Employee bör ingå för att spara information för de anställda.
+ */ 
+
+/* Uppgift 2
+   Vilka attribut och metoder bör ingå i dessa klasser?
+
+   För- och efternamn samt lön bör ingå som attribut i klassen. Jag har valt att inte använda en metod i klassen, enbart en constructor.
+ */ 
+
+/* Uppgift 3
+   Skriv programmet
+
+   Se kod.
+ */ 
+
+using Personalregister;
 
 string selectedAction;
 var employees = new LinkedList<Employee>();
